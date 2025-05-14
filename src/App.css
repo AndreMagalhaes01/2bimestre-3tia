@@ -40,3 +40,19 @@
 .read-the-docs {
   color: #888;
 }
+
+.advice-box {
+  transition: opacity 0.3s ease-in-out;
+  border: 2px dashed #4caf50;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 1rem 0;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0;
+}
